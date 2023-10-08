@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{18EBD55F-769E-4EFD-8196-E706D43CDEE8}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="4105"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="C:\Users\tobio\Downloads\CreatingaimpleETLPackage\Creating a Simple ETL Package\Sample Data\SampleCurrencyData.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:DataType="4"
+          DTS:TextQualified="True"
+          DTS:ObjectName="AVERAGE_RATE"
+          DTS:DTSID="{47C8F6AE-ECF9-4EC6-9328-4664A1205D52}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:MaximumWidth="3"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CURRENCY_KEY"
+          DTS:DTSID="{1B0551BF-66BC-42BF-B085-30EFE44E56DC}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x0009_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DATEKEY"
+          DTS:DTSID="{60E3D122-E525-472D-A875-00056EB73AAF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="4"
+          DTS:TextQualified="True"
+          DTS:ObjectName="ENDOFDAYRATE"
+          DTS:DTSID="{54195CB5-0B43-4574-866F-B81C679CA4B8}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{9AED212B-B271-4B14-BCF8-176B93AB840A}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="4105"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1252"
+      DTS:ConnectionString="\\wsl.localhost\Ubuntu-22.04\home\ericmore\term2\Datasets\od_2014.1000.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Column 0"
+          DTS:DTSID="{AA95200E-853F-4EEF-91A5-F905071CE99A}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="start_date"
+          DTS:DTSID="{45A0501D-628F-491A-A517-B3F603FDF79F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="start_station_code"
+          DTS:DTSID="{DF6553BF-898A-4118-95B4-6BFA782F5EF3}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="7"
+          DTS:TextQualified="True"
+          DTS:ObjectName="end_date"
+          DTS:DTSID="{F5C257F4-740F-4A49-B07A-22C9FB95B756}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="end_station_code"
+          DTS:DTSID="{2022D938-7055-4AF5-B037-E735C7253F9F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x002C_"
+          DTS:DataType="2"
+          DTS:TextQualified="True"
+          DTS:ObjectName="duration_sec"
+          DTS:DTSID="{D7F1D670-DA71-4E75-820F-ADD6AEB1C162}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="16"
+          DTS:TextQualified="True"
+          DTS:ObjectName="is_member"
+          DTS:DTSID="{EF3AD592-C9A6-432C-99C3-0CE59B795155}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

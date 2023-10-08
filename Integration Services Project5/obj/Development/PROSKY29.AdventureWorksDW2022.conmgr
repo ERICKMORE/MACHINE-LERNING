@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="PROSKY29.AdventureWorksDW2022"
+  DTS:DTSID="{6BB95F67-FF2D-4C51-8836-9AF28CA5DE02}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=PROSKY29;Initial Catalog=AdventureWorksDW2022;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Integration Services Project5-{6BB95F67-FF2D-4C51-8836-9AF28CA5DE02}PROSKY29.AdventureWorksDW2022;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

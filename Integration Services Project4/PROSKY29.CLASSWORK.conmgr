@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="PROSKY29.CLASSWORK"
+  DTS:DTSID="{FB1AFBC7-883C-4E76-B907-7E3DAE581E92}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=PROSKY29;Initial Catalog=CLASSWORK;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Integration Services Project4-{FB1AFBC7-883C-4E76-B907-7E3DAE581E92}PROSKY29.CLASSWORK;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
